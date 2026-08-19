@@ -16,9 +16,18 @@
 <body>
     <div>
         <header>
-            <img src="img/Md Shariful Islam.png" alt="MD SHARIFUL ISLAM" width="200" height="200">
-            <p>Message Me</p>
-            <h1>MD SHARIFUL ISLAM</h1>
+            <img class="My Photo" src="img/Md Shariful Islam.png" alt="MD SHARIFUL ISLAM" width="200" height="200">
+            <p class="message">Message Me</p>
+            <!-- Search form -->
+            <form class="search" action="#" method="get">
+                <label for="search">Search:</label>
+                <input type="text" id="search" name="search" required>
+                <br>
+                <input type="submit" value="Search">
+            </form>
+            <br>
+            <h1 class="my name" >MD SHARIFUL ISLAM</h1>
+            <section class="my profession">
             <p>DMF Dhaka</p>
             <p>BM&DC Number: 21787</p>
             <p>TMSS Medical College Hospital</p>
@@ -28,8 +37,9 @@
             <p>Address: Village: Rajosh, Post Office: Shargachi-5740, Upazila: Gobindaganj, District: Gaibandha,
                 Division: Rangpur, Bangladesh</p>
             <p>Marital Status: Married</p>
+            </section>
             <!-- Sidebar Navigation -->
-            <nav>
+            <nav class="sidebar">
                 <ul>
                     <li><a href="#about">About Me</a></li>
                     <li><a href="#contact">Contact</a></li>
@@ -43,9 +53,9 @@
         <br>
         <br>
         <br>
-        <h3>About Me:</h3>
+        <h3 class="about me">About Me:</h3>
         <p>
-            <span>
+            <span  class="about me text">
                 My name is <b>Md. Shariful Islam</b>. I hold a Diploma in Medical Faculty (DMF) from TMSS Medical
                 College and am registered under BMDC (Registration No. 21787). Currently, I am fully dedicated to
                 advancing my skills as a passionate Blockchain Learner. On a personal note, I am happily married to
@@ -63,8 +73,8 @@
         </p>
         <div>
 
-            <ul> <strong>Family Members:</strong></ul>
-            <i>
+            <ul> <strong class="Family" >Family Members:</strong></ul>
+            <i class="Family Members">
                 <li>Father: Md. Lokman Sarkar</li>
                 <li>Mother: Most. Chhana Akter</li>
                 <li>Brother: Md. Shahabuddin Sarkar</li>
@@ -82,7 +92,7 @@
         <br>
         <br>
         <!-- Message me form -->
-        <form action="#" method="post">
+        <form class="message-form" action="#" method="post">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
             <br>
@@ -115,70 +125,18 @@
         <!-- Additional Information -->
         <div class="additional-info">
             <p>Marital Status: Married</p>
-            <p>Family Members:</p>
-            <ul>
-                <li>Father: Md. Lokman Sarkar</li>
-                <li>Mother: Most. Chhana Akter</li>
-                <li>Brother: Md. Shahabuddin Sarkar</li>
-                <li>Brother's Wife: Fariya Akter</li>
-                <li>Youngest Brother: Md. Shahadat Sarkar</li>
-                <li>Grandmother: Khaleda Bewa</li>
-                <li>Grandfather: Dobir Uddin (Passed away)</li>
-                <li>Wife: Most. Jannati Khatun</li>
-                <li>Son: Faris Al Khalid</li>
-                <li>Brother's Son: Sifat Sarkar</li>
             </ul>
         </div>
         <br>
 
         <br>
-        <!-- Sign in form -->
-        <form action="#" method="post">
-            <label for="signin-email">Email:</label>
-            <input type="email" id="signin-email" name="signin-email" required>
-            <br>
-            <label for="signin-password">Password:</label>
-            <input type="password" id="signin-password" name="signin-password" required>
-            <br>
-            <input type="submit" value="Sign In">
-        </form>
-        <br>
-        <br>
-        <!-- Sign up form -->
-        <form action="#" method="post">
-            <br>
-            <label for="signup-name">Name:</label>
-            <input type="text" id="signup-name" name="signup-name" required>
-            <br>
-            <label for="signup-email">Email:</label>
-            <input type="email" id="signup-email" name="signup-email" required>
-            <br>
-            <label for="signup-password">Password:</label>
-            <input type="password" id="signup-password" name="signup-password" required>
-            <br>
-            <label for="signup-confirm-password">Confirm Password:</label>
-            <input type="password" id="signup-confirm-password" name="signup-confirm-password" required>
-            <br>
-            <input type="submit" value="Sign Up">
-        </form>
-        <br>
-        <br>
-        <!-- Search form -->
-        <form action="#" method="get">
-            <label for="search">Search:</label>
-            <input type="text" id="search" name="search" required>
-            <br>
-            <input type="submit" value="Search">
-        </form>
-        <br>
-        <br>
         <br>
         <!-- Footer Section -->
-        <footer>
+        <footer class="footer">
             <p>&copy; 2024 MD SHARIFUL ISLAM. All rights reserved.</p>
         </footer>
-        <h2>SRF<sup>TM</sup></h2>
-        <a href="#top">Go to Top</a>
+        <h2 class="signature">SRF<sup>TM</sup></h2>
+        <a class="scroll-to-top" href="#top">Go to Top</a>
 </body>
 
 </html>
