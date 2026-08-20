@@ -1,12 +1,22 @@
+.img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-image: url('img/srf\ bike2026-06-14\ at\ 7.32.20\ PM.jpeg');
+    background-size: cover;
+}
+
 .my-photo {
-    border-radius: 50%;
-    padding: 10px;
+    border-radius: 100%;
+    padding: 30px;
     background-attachment: fixed;
-    background-color: #f8f8f8;
+    background-color: #8f7c7c;
     animation: fadeIn 2s ease-in-out;
     position: relative;
     display: block;
     margin: 0 auto;
+    border: 5px solid #ccc;
 }
 
 .my-name {
@@ -14,34 +24,40 @@
     font-size: 24px;
     font-weight: bold;
     margin-top: 10px;
-}   
+}
 
 .my-profession {
     text-align: center;
     font-size: 18px;
     color: #666;
     margin-bottom: 20px;
-}   
+}
+
 .sidebar {
     background-color: #f8f8f8;
     padding: 10px;
     border-radius: 5px;
-}   
+    color: rgb(from color r g b) #000 0.5;
+}
+
 .about-me {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 10px;
 }
+
 .about-me-text {
     font-size: 16px;
     line-height: 1.5;
     color: #333;
 }
+
 .family {
     font-size: 18px;
     font-weight: bold;
     margin-top: 20px;
 }
+
 .family-members {
     font-size: 16px;
     line-height: 1.5;
@@ -50,9 +66,10 @@
 
 .message {
     font-size: 18px;
-    color: #007BFF;
+    color: rgb(99, 156, 216);
     font-weight: bold;
 }
+
 .search {
     width: 100%;
     padding: 8px;
@@ -60,38 +77,49 @@
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+
 .message-form {
     display: flex;
     flex-direction: column;
     max-width: 400px;
     margin: 0 auto;
-}   
+    color: #000;
+}
+
 .social-media {
     display: flex;
     justify-content: center;
     gap: 10px;
     margin-top: 20px;
+    color: #000;
 }
+
 .contact-info {
     text-align: center;
     margin-top: 20px;
-}   
+    color: #000;
+}
+
 .additional-info {
     text-align: center;
     margin-top: 20px;
+    color: #000;
 }
+
 .footer {
     text-align: center;
     margin-top: 20px;
     font-size: 14px;
     color: #666;
 }
+
 .signature {
     text-align: center;
     font-size: 18px;
     font-weight: bold;
     margin-top: 10px;
 }
+
 .scroll-to-top {
     display: block;
     text-align: center;
