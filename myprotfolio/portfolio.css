@@ -58,10 +58,14 @@ html, body {
 }
 .msg {
     color: #fff;
-    font-size: 1rem;
-    margin-top: 1rem;
-    margin-left: 1rem;
-    text-align: left;
+    background-color: #8b8c99;
+    padding: 5px;
+    text-align: center;
+}
+.msg:hover {
+    background-color: #601515;
+    cursor: pointer;
+    
 }
 .btn {
     display: inline-block;
